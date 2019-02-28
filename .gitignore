@@ -1,7 +1,6 @@
 env/
 .vscode/
-__pycache__/
-__pycache__/*
+/__pycache__/
 environ.sh
 *.pyc
 *.sqlite3
