@@ -123,7 +123,7 @@ STATIC_URL = '/static/'
 
 
 
-
+###########################################
 
 if not DEBUG:
     EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
@@ -137,3 +137,6 @@ else:
     EMAIL_BACKEND = (
         'django.core.mail.backends.console.EmailBackend'
     )
+
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+MEDIA_URL = '/media/'
